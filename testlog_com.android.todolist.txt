@@ -1,0 +1,46 @@
+08-15 00:28:29.776  1135  2204 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[798,370][1056,659] (has extras)} from uid 10012 from pid 1994 on display 0 from pid 1994
+08-15 00:28:29.842  1135  1333 I ActivityManager: Start proc 18589:com.android.todolist/u0a143 for activity com.android.todolist/.MainActivity
+08-15 00:30:41.140  1135  2204 I NotificationService: enqueueToast pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@55b8772 duration=0
+08-15 00:35:03.236  1135  1934 I NotificationService: enqueueToast pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@7bbbe88 duration=0
+08-15 00:35:15.286  1135  1333 I NotificationService: enqueueToast pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@e35f391 duration=0
+08-15 00:35:15.290  1135  1146 I ActivityManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 00:35:22.690  1135  1968 I ActivityManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 00:35:26.112  1135  1333 I NotificationService: enqueueToast pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@8387cd7 duration=0
+08-15 00:35:26.116  1135  1146 I ActivityManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 00:35:46.591  1135  2204 I ActivityManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 00:35:48.856  1135  2205 I NotificationService: enqueueToast pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@6a25897 duration=0
+08-15 00:35:48.860  1135  1145 I ActivityManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 00:35:59.332  1135  2012 I ActivityManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 00:36:00.756  1135  1997 I NotificationService: enqueueToast pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@bc8a04e duration=0
+08-15 00:36:00.757  1135  1841 I ActivityManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 00:36:10.099  1135  1968 I ActivityManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 00:46:14.054  1135  1146 W PackageManager: checkPermission(): android.permission.INTERNET of com.android.todolist is denied.
+08-15 00:46:29.775  1135  1942 W PackageManager: checkPermission(): android.permission.INTERNET of com.android.todolist is denied.
+08-15 00:49:37.435  1135  1841 W PackageManager: checkPermission(): com.chinatelecom.permission.security.EMM of com.android.todolist is denied.
+08-15 01:11:30.785  1135  1333 W PackageManager: checkPermission(): android.permission.INTERNET of com.android.todolist is denied.
+08-15 01:11:30.964  1135  1974 W PackageManager: checkPermission(): com.chinatelecom.permission.security.EMM of com.android.todolist is denied.
+08-15 01:20:53.327  1135  1968 W PackageManager: checkPermission(): com.chinatelecom.permission.security.EMM of com.android.todolist is denied.
+08-15 07:06:04.900  1135  1942 W PackageManager: checkPermission(): android.permission.INTERNET of com.android.todolist is denied.
+08-15 07:09:05.246  1135  1942 W PackageManager: checkPermission(): com.chinatelecom.permission.security.EMM of com.android.todolist is denied.
+08-15 07:24:47.010   316   470 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8f0f000,id:80,api:1,p:18589,c:316) queueBuffer: fps=0.03 dur=88765.93 max=88696.14 min=7.66
+08-15 07:24:47.057   316   316 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8e5ec00,id:92,api:0,p:-1,c:316) setConsumerName: com.android.todolist/com.android.todolist.MainActivity
+08-15 07:24:47.072   316   470 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8e5ec00,id:92,api:1,p:18589,c:316) connect(P): api=1 producer=(18589:com.android.todolist) producerControlledByApp=true
+08-15 07:24:48.102   316  1184 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8e5ec00,id:92,api:1,p:18589,c:316) queueBuffer: fps=3.00 dur=1000.82 max=507.17 min=16.78
+08-15 07:24:48.419   316  1183 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8f0f000,id:80,api:1,p:18589,c:316) queueBuffer: fps=35.49 dur=1408.94 max=565.84 min=5.34
+08-15 07:24:49.603   316  1183 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8e5ec00,id:92,api:1,p:18589,c:316) queueBuffer: fps=3.33 dur=1501.48 max=506.16 min=51.04
+08-15 07:24:50.922   316   470 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8e5ec00,id:92,api:1,p:18589,c:316) queueBuffer: fps=2.28 dur=1318.60 max=489.61 min=403.41
+08-15 07:24:51.934   316  1184 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8e5ec00,id:92,api:1,p:18589,c:316) queueBuffer: fps=1.98 dur=1012.01 max=507.86 min=504.15
+08-15 07:24:52.184   316   473 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8f0f000,id:80,api:1,p:18589,c:316) queueBuffer: fps=0.27 dur=3765.22 max=3765.22 min=3765.22
+08-15 07:24:52.355   316   316 I BufferQueue: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8e5ec00,id:92,api:1,p:-1,c:-1) ~BufferQueueCore
+08-15 07:24:57.192  1135  1968 I NotificationService: enqueueToast pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@5e822d8 duration=0
+08-15 07:24:57.212  1135  1989 I ActivityManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 07:24:57.263   316   470 I BufferQueueProducer: [Toast](this:0x7fa8e58800,id:94,api:1,p:18589,c:316) connect(P): api=1 producer=(18589:com.android.todolist) producerControlledByApp=true
+08-15 07:24:57.268   316  8814 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8f0f000,id:80,api:1,p:18589,c:316) queueBuffer: fps=0.59 dur=5084.01 max=5030.17 min=6.79
+08-15 07:24:57.361   316   316 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.ListActivity](this:0x7fa8e5ec00,id:95,api:0,p:-1,c:316) setConsumerName: com.android.todolist/com.android.todolist.ListActivity
+08-15 07:24:57.364   316  8814 I BufferQueueProducer: [com.android.todolist/com.android.todolist.ListActivity](this:0x7fa8e5ec00,id:95,api:1,p:18589,c:316) connect(P): api=1 producer=(18589:com.android.todolist) producerControlledByApp=true
+08-15 07:24:57.437  1135  1176 I ActivityManager: [AppLaunch] Displayed Displayed com.android.todolist/.ListActivity: +196ms
+08-15 07:24:57.685   316   316 I BufferQueue: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8f0f000,id:80,api:1,p:-1,c:-1) ~BufferQueueCore
+08-15 07:24:59.206  1135  1993 I ActivityManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10143 from pid 18589 on display 0 from pid 18589
+08-15 07:24:59.208   316   473 I BufferQueueProducer: [com.android.todolist/com.android.todolist.ListActivity](this:0x7fa8e5ec00,id:95,api:1,p:18589,c:316) queueBuffer: fps=1.67 dur=1799.58 max=1518.65 min=31.88
+08-15 07:24:59.326   316   316 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8f0f000,id:96,api:0,p:-1,c:316) setConsumerName: com.android.todolist/com.android.todolist.MainActivity
+08-15 07:24:59.341   316  8814 I BufferQueueProducer: [com.android.tod
