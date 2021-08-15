@@ -1,0 +1,52 @@
+﻿08-15 15:00:53.454 1135-2204/? I/ActivityManager: Force stopping com.android.todolist appid=10143 user=0: from pid 2718
+08-15 15:00:53.454 1135-2204/? I/ActivityManager: Killing 2621:com.android.todolist/u0a143 (adj 11): reason: from pid 2718, stop com.android.todolist
+08-15 15:00:58.583 1135-1186/? I/PackageManager.DexOptimizer: Running dexopt (dex2oat) on: /data/app/vmdl49052598.tmp/base.apk pkg=com.android.todolist isa=arm64 vmSafeMode=false debuggable=true oatDir = /data/app/vmdl49052598.tmp/oat
+08-15 15:01:04.850 1135-1171/? I/ActivityManager: Force stopping com.android.todolist appid=10143 user=-1: uninstall pkg
+08-15 15:01:05.128 1135-1186/? I/PackageManager: Package com.android.todolist codePath changed from /data/app/com.android.todolist-2 to /data/app/com.android.todolist-1; Retaining data and using new
+08-15 15:01:05.153 1135-1171/? I/ActivityManager: Force stopping com.android.todolist appid=10143 user=-1: replace pkg
+08-15 15:01:05.156 1135-1186/? W/PackageManager: Code path for com.android.todolist changing from /data/app/com.android.todolist-2 to /data/app/com.android.todolist-1
+08-15 15:01:05.156 1135-1186/? W/PackageManager: Resource path for com.android.todolist changing from /data/app/com.android.todolist-2 to /data/app/com.android.todolist-1
+08-15 15:01:06.050 1135-1186/? W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.android.todolist-2/base.apk, retcode=-1
+08-15 15:01:06.085 1135-1186/? I/ActivityManager: Force stopping com.android.todolist appid=10143 user=0: pkg removed
+08-15 15:01:06.160 1135-1186/? W/ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) }: user 11 is stopped
+08-15 15:01:06.186 1135-1186/? W/ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) }: user 11 is stopped
+08-15 15:01:06.212 1325-1325/? I/recents.Events: PackageRemovedEvent ： com.android.todolist  userid 0
+08-15 15:01:06.219 1994-2193/? W/Launcher.Model: {com.android.todolist/com.android.todolist.MainActivity}
+08-15 15:01:06.220 1135-1186/? W/ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.android.todolist flg=0x4000010 (has extras) }: user 11 is stopped
+08-15 15:01:06.235 1135-1186/? W/ActivityManager: Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x4000010 pkg=com.android.todolist (has extras) }: user 11 is stopped
+08-15 15:01:06.318 664-664/? I/AppStatusReceiver: ACTION_PACKAGE_ADDED: com.android.todolist
+08-15 15:01:07.451 1135-1993/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.todolist/.MainActivity} from uid 2000 from pid 3026 on display 0 from pid 3026
+08-15 15:01:07.504 1135-1993/? I/ActivityManager: Start proc 3171:com.android.todolist/u0a143 for activity com.android.todolist/.MainActivity
+08-15 15:01:07.566 3171-3171/com.android.todolist W/System: ClassLoader referenced unknown path: /data/app/com.android.todolist-1/lib/arm64
+08-15 15:01:07.618 3171-3171/com.android.todolist W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+08-15 15:01:07.669 3171-3171/com.android.todolist I/art: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>
+08-15 15:01:07.670 3171-3171/com.android.todolist I/art: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>
+08-15 15:01:08.051 1135-1171/? W/ActivityManager: Activity pause timeout for ActivityRecord{1f40a3b u0 com.android.todolist/.MainActivity t2728}
+08-15 15:01:08.080 1135-1895/? W/PackageManager: checkPermission(): android.permission.INTERNET of com.android.todolist is denied.
+08-15 15:01:08.114 316-316/? I/BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8e1f400,id:133,api:0,p:-1,c:316) setConsumerName: com.android.todolist/com.android.todolist.MainActivity
+08-15 15:01:08.206 3171-3243/com.android.todolist I/OpenGLRenderer: Initialized EGL, version 1.4
+08-15 15:01:08.212 3171-3243/com.android.todolist E/OpenGLRenderer: PerfServiceNative_notifyRenderTime init fail!
+08-15 15:01:08.213 3171-3243/com.android.todolist I/OpenGLRenderer: Get enable program binary service property (1)
+08-15 15:01:08.215 3171-3243/com.android.todolist I/OpenGLRenderer: Program binary detail: Binary length is 173456, program map length is 152.
+08-15 15:01:08.215 3171-3243/com.android.todolist I/OpenGLRenderer: Succeeded to mmap program binaries. File descriptor is 39, and path is /dev/ashmem�.
+08-15 15:01:08.215 3171-3243/com.android.todolist I/OpenGLRenderer: No need to use file discriptor anymore, close fd(39).
+08-15 15:01:08.233 316-1183/? I/BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity](this:0x7fa8e1f400,id:133,api:1,p:3171,c:316) connect(P): api=1 producer=(3171:com.android.todolist) producerControlledByApp=true
+08-15 15:01:08.234 3171-3243/com.android.todolist W/libEGL: [ANDROID_RECORDABLE] format: 1
+08-15 15:01:08.405 3202-3232/? I/trafficOfferData: transToAppStatusInfo: before:AppInfo{appUid=10143, pkName='com.android.todolist', appName=To Do List, appDesc=null, isfenShengApp=false, appSim1Used=0, appSim2Used=0, appUsed=0, ischecked=true, controlType=-1, position=-1} after:AppControlStatusInfo{appPkg='com.android.todolist', appUid=10143, netType=0, netStatus=1, notifyAllow=0}
+08-15 15:01:08.503 3202-3240/? I/Utils: uid is : 10143  packagesInfo is : com.android.todolist
+08-15 15:01:08.511 1135-1176/? I/ActivityManager: [AppLaunch] Displayed Displayed com.android.todolist/.MainActivity: +960ms (total +1s42ms)
+08-15 15:01:08.580 3202-3232/? I/trafficOfferData: transToAppStatusInfo: before:AppInfo{appUid=10143, pkName='com.android.todolist', appName=To Do List, appDesc=null, isfenShengApp=false, appSim1Used=0, appSim2Used=0, appUsed=0, ischecked=true, controlType=-1, position=-1} after:AppControlStatusInfo{appPkg='com.android.todolist', appUid=10143, netType=1, netStatus=1, notifyAllow=0}
+08-15 15:01:11.848 1135-1993/? W/Interception: isInterceptByRule realCallingPid: 0 isInterceptAsUsual: true isMatch: true, runType===broadcast|||callerPkg===*|||calleePkg===com.android.vending|||calleeClass===com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver|||processName===com.android.vending|||action===android.intent.action.PACKAGE_REMOVED|||data===package:com.android.todolist|||extras===Bundle[{android.intent.extra.REMOVED_FOR_ALL_USERS=false, packagemanager.extra.delete_uid=-1, android.intent.extra.UID=10143, packagemanager.extra.is_from_adb=false, android.intent.extra.DATA_REMOVED=false, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]|||interception===false
+08-15 15:01:14.136 3498-3498/? I/Finsky: [1] tye.n(-1): Invalidating cached PackageState for com.android.todolist
+08-15 15:01:14.208 3498-3657/? I/Finsky: [1649] glh.accept(16): Cancelled 0 ongoing asset module downloads for package com.android.todolist due to a concurrent app update.
+08-15 15:01:14.239 3498-3610/? I/Finsky: [1612] fwa.a(5): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.android.todolist]
+08-15 15:01:15.311 3202-3684/? I/RuleGetter: getRuleResult() pkg=com.android.todolist, remote=false
+08-15 15:01:15.318 3202-3684/? I/InstallReceiver: com.android.todolist not allowed autoRun. so not up rule2frk
+08-15 15:01:16.883 3202-3691/? I/Utils: uid is : 10143  packagesInfo is : com.android.todolist
+08-15 15:01:20.879 3423-3423/? I/AppStatusReceiver: ACTION_PACKAGE_ADDED: com.android.todolist
+08-15 15:01:21.122 3498-3498/? I/Finsky: [1] tye.n(-1): Invalidating cached PackageState for com.android.todolist
+08-15 15:01:21.502 3498-3616/? I/Finsky: [1617] fwa.a(5): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.android.todolist]
+08-15 15:01:21.507 3498-3657/? I/Finsky: [1649] glh.accept(24): Asset module broadcast after update successful for package com.android.todolist. 0 sessions broadcast.
+08-15 15:01:21.566 3423-3423/? I/AppStatusReceiver: ACTION_PACKAGE_ADDED: com.android.todolist
+08-15 15:01:21.595 26613-4130/? I/FontLog: Package com.android.todolist has no metadata [CONTEXT service_id=132 ]
+08-15 15:01:22.132 3202-3691/? I/Utils: uid is : 10143  packagesInfo is : com.android.todolist
